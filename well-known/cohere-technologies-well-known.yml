@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/* on the corporate host
+host: https://www.cohere-tech.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No .well-known discovery documents are published. Cohere Technologies is a
+  wireless/RAN software company with no public developer API surface. A
+  first-party llms.txt IS published at https://www.cohere-tech.com/llms.txt
+  (captured in llms/cohere-technologies-llms.txt).

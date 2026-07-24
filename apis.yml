@@ -1,8 +1,29 @@
 aid: cohere-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cohere-technologies.png
 name: Cohere Technologies
-description: Cohere Technologies is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Cohere Technologies is a San Jose, California wireless communications software
+  company developing spectral-efficiency technology for mobile networks. Its
+  Universal Spectrum Multiplier (USM) software delivers a 2x spectrum multiplier
+  for 4G, 5G, and Multi-G networks across FDD and TDD bands, and its Pulsone
+  technology applies the Zak-OTFS (Orthogonal Time Frequency Space) waveform to
+  Integrated Sensing and Communications (ISAC) and Non-Terrestrial Networks
+  (NTN). The company sells to mobile network operators and Open RAN ecosystems
+  and is backed by Lightspeed Venture Partners, NEA, Telstra Ventures, Intel
+  Capital, Koch Investments Group, VMware, and Juniper Networks. Cohere
+  Technologies is a portfolio company of Lightspeed Venture Partners and does not
+  currently publish a public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/cohere-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Wireless
+- Telecommunications
+- 5G
+- Open RAN
+- Spectrum Efficiency
+- OTFS
+- Non-Terrestrial Networks
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cohere-technologies-domain-security.yml
+- type: LLMsTxt
+  url: llms/cohere-technologies-llms.txt
+- type: Website
+  url: https://www.cohere-tech.com/
+- type: About
+  url: https://www.cohere-tech.com/about-us/
+- type: Blog
+  url: https://www.cohere-tech.com/press-releases/
+- type: PrivacyPolicy
+  url: https://www.cohere-tech.com/privacy-policy
+- type: Careers
+  url: https://www.cohere-tech.com/careers/
+- type: Investors
+  url: https://www.cohere-tech.com/investors/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
